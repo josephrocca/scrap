@@ -4,7 +4,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-import { Buffer } from "./buffer.ts";
+import { Buffer } from "https://deno.land/std@0.126.0/io/buffer.ts";
 
 /** Reader utility for strings */
 export class StringReader extends Buffer {
