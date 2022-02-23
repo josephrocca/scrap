@@ -29,7 +29,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import { MultiReader } from "https://raw.githubusercontent.com/josephrocca/scrap/main/deno_tar_fixed/readers.ts";
+import { MultiReader } from "https://raw.githubusercontent.com/josephrocca/scrap/main/deno_tar_fixed/readers.ts?_cacheBust=1";
 import { Buffer, PartialReadError } from "https://deno.land/std@0.126.0/io/buffer.ts";
 import { assert } from "https://deno.land/std@0.126.0/_util/assert.ts";
 import { readAll } from "https://deno.land/std@0.126.0/streams/conversion.ts";
